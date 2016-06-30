@@ -629,9 +629,14 @@
             // And it has to be set after animation finishes, because in Chrome it
             // makes transtion laggy.
             // BUG: http://code.google.com/p/chromium/issues/detail?id=62820
+            //
+            // OYOclass: we are using this in a popup window, we don't need to change the url hash
+            // so simply comment below 3 lines
+            /*
             root.addEventListener( "impress:stepenter", function( event ) {
                 window.location.hash = lastHash = "#/" + event.target.id;
             }, false );
+            */
 
             window.addEventListener( "hashchange", function() {
 
