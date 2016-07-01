@@ -50,7 +50,6 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'Titillium Web', sans-serif;
     min-height: 740px;
 
     background: rgb(26, 26, 26);
@@ -140,7 +139,6 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'Titillium Web', sans-serif;
     font-size: 48px;
     line-height: 1.5;
 }
